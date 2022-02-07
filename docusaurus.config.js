@@ -162,34 +162,10 @@ module.exports = {
       },
       items: [
         {
-          to: "docs/home/new-to-polygon",
-          label: "Basics",
-          position: "left",
-          activeBasePath: "docs/home",
-        },
-        {
-          to: "docs/develop/getting-started",
-          label: "Develop",
-          position: "left",
-          activeBasePath: "docs/develop",
-        },
-        {
-          to: "docs/validate/polygon-overview",
-          label: "Validate",
-          position: "left",
-          activeBasePath: "docs/validate",
-        },
-        {
-          to: "docs/integrate/quickstart",
-          label: "Integrate",
-          position: "left",
-          activeBasePath: "docs/integrate",
-        },
-        {
-          to: "docs/contribute/orientation",
-          label: "Contribute",
-          position: "left",
-          activeBasePath: "docs/contribute",
+          to: "docs/faq/technical-faqs",
+          label: "FAQ",
+          position: "right",
+          activeBasePath: "docs/faq",
         },
         {
           label: "Support",
@@ -201,17 +177,6 @@ module.exports = {
           position: "right",
           className: "header-github-link",
           "aria-label": "GitHub repository",
-        },
-        {
-          label: "Polygon SDK",
-          href: "https://sdk-docs.polygon.technology/docs/overview/",
-          position: "left",
-        },
-        {
-          to: "docs/faq/technical-faqs",
-          label: "FAQ",
-          position: "left",
-          activeBasePath: "docs/faq",
         },
       ],
     },
